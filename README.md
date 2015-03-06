@@ -26,7 +26,7 @@ topojson \
 --id-property=+NAME,+CensusTract \
 -p total00=+total00 \
 -p total10=+total10 \
---input35.json 
+-- input35.json 
 ```
 
 Note: delete tract 9900, as it represents the lake itself and does not contain useful information (to the best of my knowledge).
